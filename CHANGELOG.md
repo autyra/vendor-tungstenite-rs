@@ -1,3 +1,7 @@
+# UNRELEASED
+
+* Reject non-compliant clients (incorrect `Sec-WebSocket-Key` length/format) on the server side.
+
 # 0.29.0
 
 * Update MSRV to `1.71` due to `syn` (the dependency of `thiserror`) requiring it.
